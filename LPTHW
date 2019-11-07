@@ -22,6 +22,29 @@ In Python:
 90
 >>> chr ( 9 0 )
 ’Z ’
+
+Unicode was invented to create an encoding convention that could include all the world's languages
+   - You can use 32-bit numbers which means we can store (2^32) characters. 
+   
+The problem with the above is that 32bits = 4 bytes - leads to alot of wasted space when encoding.
+   - So we can use UTF-8 and then 'Escape' into larger number when needed. 
+   - Use 8 bits then escape out to 16 or 32 bits.
+   - utf-8 = Unicode Transformation Format 8 bits. 
+
+b'' = byte string ---> tells python that this is 'bytes' - python can take these bytes and 'cook' them into 'real' characters.
+
+In Python a string is a UTF-8 encoded sequence of characters for displaying or working with text
+
+Working with RAW BYTES ---> use .decode() to obtain the string.
+Working with a string ----> use .encode() so that python can store it in bytes.
+
+
+
+   
+   -
+
+
+
    
    
 
