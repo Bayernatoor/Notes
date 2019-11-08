@@ -152,7 +152,6 @@ Return: The statement return [expression] exits a function, optionally passing b
  
 Sys.argv :  
  
- 
 If: 
  
 .encode: Will 'Encode' a string to bytes
@@ -161,6 +160,7 @@ If:
  
 .strip: 
  
-utf-8:
+utf-8: A covention for encoding text in Python - It allows for the use of 8 bit encoding but also to escape out and use 16 or 32 bit encoding if required.
+This saves space compared to encoding only with unicode which is 32 bit encoding.
 
 
