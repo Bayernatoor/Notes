@@ -158,7 +158,13 @@ If:
  
 .decode: Will decode bytes into a string 
  
-.strip: 
+.strip: strips out/removes something - ex: the \n at the end of sentence so that when it prints you get this:
+a
+b 
+instead of:
+a
+
+b
  
 utf-8: A covention for encoding text in Python - It allows for the use of 8 bit encoding but also to escape out and use 16 or 32 bit encoding if required.
 This saves space compared to encoding only with unicode which is 32 bit encoding.
