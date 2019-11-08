@@ -155,9 +155,9 @@ Sys.argv :
  
 If: 
  
-.encode: Will 'Encode' a 
+.encode: Will 'Encode' a string to bytes
  
-.decode: 
+.decode: Will decode bytes into a string 
  
 .strip: 
  
