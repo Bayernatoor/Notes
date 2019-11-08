@@ -1,4 +1,5 @@
-[ Symbols: 
+{
+Symbols: 
  
 " ": These are double quotes, if use them to create a string, an area where you can print out text.  
  
@@ -60,7 +61,8 @@ From <https://www.tutorialspoint.com/python/assignment_operators_example.htm>
  
 ; : allows you to place multiple lines of codes on 1 line , use that symbol to separate the code
 
-DigitalOcean (https://www.digitalocean.com/community/tutorials/how-to-construct-classes-and-define-objects-in-python-3)]
+DigitalOcean (https://www.digitalocean.com/community/tutorials/how-to-construct-classes-and-define-objects-in-python-3)
+}
 
 
 
