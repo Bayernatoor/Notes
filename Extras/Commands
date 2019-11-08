@@ -1,4 +1,106 @@
-r(f"\n{line1}\n{line2}\n{line3}") 
+Print: The start of a string, allows me to use quotes to write text to the user.  
+Ex: print("I'd much rather you 'not'.") 
+ 
+print(x) :  Prints variable x 
+ 
+Strings : A section of text that the user can see. 
+ 
+Variable: a word of any type that can be used along with = to set it to a specific value. 
+Ex: space_in_a_car = 4.0 - the variable space_in_a_car is now equal to 4.0 
+ 
+.format() :  
+Formatters work by putting in one or more replacement fields or placeholders — defined by a pair of curly braces {} — into a string and calling the str.format() method. You’ll pass into the method the value you want to concatenate with the string. This value will be passed through in the same place that your placeholder is positioned when you run the program. 
+ 
+From <https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3>  
+ 
+https://pyformat.info/#number 
+https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3 
+ 
+False or True (Boolean Values):  
+Boolean values are the two constant objects False and True.  
+They are used to represent truth values (other values can also be considered false or true).  
+In numeric contexts (for example, when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. 
+The built-in function bool() can be used to cast any value to a Boolean, if the value can be interpreted as a truth value 
+They are written as False and True, respectively.  
+ 
+Remember that the built-in type Boolean can hold only one of two possible objects: True or False 
+ 
+From <https://www.pythonforbeginners.com/basics/boolean/>  
+ 
+end = ' ' : Used to tie separate print functions together, instead there being a linefeed - it instead makes a space and  continues with the text. 
+Ex: print(end1 + end2 + end3 + end4 + end5 + end6, end = ' ') 
+print(end7 + end8 + end9 + end10 + end11 + end12) 
+The above  = Cheese Burger, instead of: 
+Cheese 
+Burger 
+ 
+Print ("""  
+Anything within the triple quotes will be included in the in the string (text on screen) - if this string were run in python all of it would appear on the screen. 
+""") 
+ 
+Input(): age = input(), would request an input from the user, the user can then input anything. That value entered will then be associated to the variable age. Age can now we used however you'd use a variable.  
+ 
+Ex: you can also use it like this :  
+X = input(y)  
+ Y = anything you want assigned to this variable. 
+ When prompted for an answer the y var will be printed. 
+  
+ y = '>' 
+ x = input(y) 
+  
+ print("x") 
+  
+  
+ 
+ 
+from sys import argv : 1st - import, this allows you to add modules to your script - in this case ARGV, which in turn allows you to use arguments in the script. 
+ 
+Broken down it imports the ARGV 'Module' from the SYS folder of python.  
+ 
+It is then used in this way : 
+script, first, second, third = argv 
+When running the script you must include the script name and the number of arguments specified when creating it. 
+ 
+Characters when handling text files: 
+ 
+ 'r'     open for reading (default) 
+ 
+ 'w' :   open for writing, truncating the file first 
+ 
+ 'x' :   create a new file and open it for writing 
+ 
+ 'a' :  open for writing, appending to the end of the file if it exists 
+ 
+  'b' :  binary mode 
+ 
+  't' :   text mode (default) 
+ 
+  '+' :   open a disk file for updating (reading and writing) 
+ 
+  'U' :    universal newline mode (deprecated) 
+ 
+Commands: 
+ 
+close(): 
+.close:  Closes the file. Like File->Save.. in your editor. 
+ 
+.open() : opens the file 
+ 
+.read:  Reads the contents of the file. You can assign the result to a variable. 
+ 
+.Readline:  Reads just one line of a text file. 
+ 
+.Truncate: Empties the file. Watch out if you care about the file. 
+ 
+.write('stuff'):  Writes "stuff" to the file. 
+ 
+.seek(0): Move the read/write location to the beginning of the file. 
+ 
+str:  The str() method returns the "informal" or nicely printable representation of a given object. 
+
+From <https://www.programiz.com/python-programming/methods/built-in/str>  
+ 
+Ex: text = str(f"\n{line1}\n{line2}\n{line3}") 
 Gives : each input for each line will be written down :  
 Line1 
 Line2 
@@ -23,6 +125,7 @@ You can define functions to provide the required functionality. Here are simple 
  • The first statement of a function can be an optional statement - the documentation string of the function or docstring. 
  • The code block within every function starts with a colon (:) and is indented. 
  • The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None. 
+
 EX:  
 # this one is like your script with argv 
 def print_two(*args): 
@@ -52,10 +155,12 @@ Sys.argv :
  
 If: 
  
-.encode: 
+.encode: Will 'Encode' a 
  
 .decode: 
  
 .strip: 
  
 utf-8:
+
+
