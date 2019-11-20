@@ -150,9 +150,6 @@ Variables inside a function are temporary and when returned it can be assigned t
  
 Return: The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None. 
  
-Sys.argv :  
- 
-If: 
  
 .encode: Will 'Encode' a string to bytes
  
@@ -232,6 +229,11 @@ not (False and False) True
 0 == 1 False
 0 == 0 True
 
+If: use it to execute a block of code, if a specified condition is true
+
+Elif: use it to execute a block of code, if the same condition is false
+
+Else : use it to specify a new condition to test, if the first condition is false
 
 
 
